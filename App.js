@@ -14,16 +14,7 @@ import { GiftedChat } from "react-native-gifted-chat";
 import * as firebase from "firebase";
 import "firebase/firestore";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyCxSaOE7RrI8LP2WLDlNm5ulFqjpZOwzv8",
-  authDomain: "chitchat-react-native.firebaseapp.com",
-  databaseURL: "https://chitchat-react-native.firebaseio.com",
-  projectId: "chitchat-react-native",
-  storageBucket: "chitchat-react-native.appspot.com",
-  messagingSenderId: "82021011233",
-  appId: "1:82021011233:web:92665f58dfbd0af71d3860",
-  measurementId: "G-E1JVM8QWZZ",
-};
+import { firebaseConfig } from "./config/creds";
 
 if (firebase.apps.length === 0) {
   firebase.initializeApp(firebaseConfig);
