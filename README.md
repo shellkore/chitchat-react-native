@@ -22,7 +22,7 @@ Currently it has only global room. Working on more features. You can download AP
   
   - Create a new project in Firebase Console. On completing the steps, select configurations for web app. Copy the firebaseConfig snippet. It would look something like this. `var firebaseConfig = {...};`
   
-  - Create a file creds.js in folder named config. ` config -> creds.json`. Paste the above firebaseConfig code snippet. Replace `var` with `export const`. Now it would look something like this. `export const firebaseConfig = {...};``
+  - Create a file creds.js in folder named config. ` config -> creds.json`. Paste the above firebaseConfig code snippet. Replace `var` with `export const`. Now it would look something like this. `export const firebaseConfig = {...};`
 
   ### Run
 
@@ -43,3 +43,4 @@ Currently it has only global room. Working on more features. You can download AP
 - [ ] Make Authentication System.
 - [ ] Other Media Sharing.
 
+> Feel free to share your opinion.
